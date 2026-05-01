@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"127bfb69276c224e","type":"text","text":"資料獲取與清理(Data ETL)","x":-581,"y":-268,"width":401,"height":60},
+		{"id":"f149394793e0808d","type":"text","text":"訊息生成(Alpha Generation)","x":-581,"y":120,"width":401,"height":60},
+		{"id":"5c41a52e1d269448","type":"text","text":"投資與風控(Portfolio & Risk Management)","x":-581,"y":480,"width":401,"height":60},
+		{"id":"edca149496ff5ee8","type":"text","text":"訂單執行與監控(Execution & Monitoring)","x":-581,"y":840,"width":401,"height":60},
+		{"id":"46245abf4fe47389","type":"text","text":"財經新聞","x":339,"y":-170,"width":278,"height":60},
+		{"id":"273c114af1242c86","type":"text","text":"社群論壇","x":339,"y":-90,"width":278,"height":60},
+		{"id":"3e4eb8b61fb3ecf3","type":"text","text":"網路與搜尋資料","x":339,"y":-10,"width":278,"height":60},
+		{"id":"b6bfe26054484231","type":"text","text":"影像與視訊資料","x":339,"y":70,"width":278,"height":60},
+		{"id":"24cc5215c4ac4dab","type":"text","text":"音訊資料","x":339,"y":150,"width":278,"height":60},
+		{"id":"c4dc73647fc0b824","type":"text","text":"非結構化數據","x":-23,"y":-10,"width":250,"height":60},
+		{"id":"9ce596b373114a20","type":"text","text":"市場資料","x":339,"y":-720,"width":278,"height":60},
+		{"id":"74de528f60fb56da","type":"text","text":"基本面資料","x":339,"y":-640,"width":278,"height":60},
+		{"id":"0c47a7235c21f9e1","type":"text","text":"結構化數據","x":-24,"y":-560,"width":250,"height":60},
+		{"id":"6529e2e44aff0340","type":"text","text":"統計成交量資料","x":338,"y":-560,"width":278,"height":60},
+		{"id":"0e64dff70ee9ec81","type":"text","text":"市場結構指標","x":338,"y":-480,"width":278,"height":60},
+		{"id":"9bb9f0ab52d6798d","type":"text","text":"風險管理資料","x":338,"y":-400,"width":279,"height":60}
+	],
+	"edges":[
+		{"id":"c7d67c46d122e3ca","fromNode":"127bfb69276c224e","fromSide":"bottom","toNode":"f149394793e0808d","toSide":"top"},
+		{"id":"fa732152ef942f09","fromNode":"f149394793e0808d","fromSide":"bottom","toNode":"5c41a52e1d269448","toSide":"top"},
+		{"id":"31f38f57d61b9f50","fromNode":"5c41a52e1d269448","fromSide":"bottom","toNode":"edca149496ff5ee8","toSide":"top"},
+		{"id":"2f1da5b70efc80f6","fromNode":"127bfb69276c224e","fromSide":"right","toNode":"c4dc73647fc0b824","toSide":"left"},
+		{"id":"9a14e4934bd48a03","fromNode":"127bfb69276c224e","fromSide":"right","toNode":"0c47a7235c21f9e1","toSide":"left"},
+		{"id":"26c1e59f5fb308cb","fromNode":"0c47a7235c21f9e1","fromSide":"right","toNode":"74de528f60fb56da","toSide":"left"},
+		{"id":"5f6151ddafa054c4","fromNode":"0c47a7235c21f9e1","fromSide":"right","toNode":"6529e2e44aff0340","toSide":"left"},
+		{"id":"db021d352214b5c9","fromNode":"0c47a7235c21f9e1","fromSide":"right","toNode":"0e64dff70ee9ec81","toSide":"left"},
+		{"id":"c35aaeb0326943bf","fromNode":"c4dc73647fc0b824","fromSide":"right","toNode":"46245abf4fe47389","toSide":"left"},
+		{"id":"dfa6dda4b16fbfc4","fromNode":"c4dc73647fc0b824","fromSide":"right","toNode":"273c114af1242c86","toSide":"left"},
+		{"id":"2ed7a50954ffecd5","fromNode":"c4dc73647fc0b824","fromSide":"right","toNode":"3e4eb8b61fb3ecf3","toSide":"left"},
+		{"id":"f6d6dcd101724005","fromNode":"c4dc73647fc0b824","fromSide":"right","toNode":"b6bfe26054484231","toSide":"left"},
+		{"id":"ed947809561901e3","fromNode":"0c47a7235c21f9e1","fromSide":"right","toNode":"9bb9f0ab52d6798d","toSide":"left"},
+		{"id":"6743b988cc370292","fromNode":"c4dc73647fc0b824","fromSide":"right","toNode":"24cc5215c4ac4dab","toSide":"left"},
+		{"id":"016932d11502fd34","fromNode":"0c47a7235c21f9e1","fromSide":"right","toNode":"9ce596b373114a20","toSide":"left"}
+	]
+}
